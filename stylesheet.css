@@ -1,0 +1,225 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh; 
+    background-color: #B8CBD1;
+}
+
+.login_socials-and-hero_container {
+    border: 1px solid black;
+    width: 70vw;
+    height: 70vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+
+}
+
+.login_socials-container {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    flex-basis: 50%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.login,
+.socials {
+    width: 50%;
+    height: 50%; /* .socials will take the remaining 40% here */
+    margin: 0 auto;
+}
+
+.input-field,
+.socials-btn {
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.uname {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.pword {
+    margin-bottom: 15px;
+}
+
+.fa-solid,
+.fa-brands {
+    padding: 15px;
+    border: 1px solid grey;
+    border-left: none;
+    width: 50px;
+    text-align: center;
+    color: grey;
+
+    font-size: 0.8rem;
+}
+
+.field,
+.socials-link {
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.remember_me-and-login_btn,
+.create_account-and-forgot_password {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label,
+a {
+    display: inline-flex;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+label {
+    font-size: 0.7rem;
+}
+
+.rm-checkbox {
+    margin-right: 5px;
+}
+
+.login_btn {
+    padding: 10px 20px;
+    background-color: #4A88FF;
+    border: none;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login_btn:hover {
+    background-color: #1957ca;
+}
+
+.or {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+/* social buttons */
+.socials {
+    height: 40%;
+    margin-top: 20px;
+}
+
+.socials-btn {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.facebook {
+    background-color: #3E5D9E;
+}
+
+.twitter {
+    background-color: #04ACED;
+}
+
+.google {
+    background-color: #FF4B3D;
+}
+
+.fa-brands {
+    border: none;
+}
+
+.fa-square-facebook,
+.facebook:hover {
+    color: whitesmoke;
+    background-color: #233B67;
+}
+
+.fa-square-twitter,
+.twitter:hover {
+    color: whitesmoke;
+    background-color: #0C94C8;
+}
+
+.fa-google,
+.google:hover {
+    color: whitesmoke;
+    background-color: #CC392F;
+}
+
+.socials-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: 600;
+}
+/* ********* */
+.hero-container {
+    width: 50%;
+    height: 100%;
+    background-image: url('/untitled/raouf-nouari-QUXC5q9oAOk-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+/* media query */
+
+@media only screen and (max-width: 425px) {
+    body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/untitled/raouf-nouari-QUXC5q9oAOk-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+
+    .login_socials-container {
+        background-color: whitesmoke;
+        border: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        flex-basis: 100%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .hero-container {
+        display: none;
+    }
+}

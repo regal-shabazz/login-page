@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Screen</title>
+    <link rel="stylesheet" href="stylesheet.css" content="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <div  class="login_socials-and-hero_container"> <!-- There are two sections in this div, and both sections are flexed. layout: row -->
+        <section class="login_socials-container"> <!--Section 1--> <!-- There are two divs nested in this section. layout: column -->
+            <div class="login"> <!--div 1--> <!-- This div(login) will take 60% of the "login_socials-container" section -->
+                <form action="" method="post">
+                    <div class="input-field uname">
+                        <i class="fa-solid fa-user"></i>
+                        <input 
+                        type="text" 
+                        name="username" 
+                        class="username field"
+                        placeholder="Username or email"
+                        required />
+                    </div>
+                    <div class="input-field pword">
+                        <i class="fa-solid fa-key"></i>
+                        <input 
+                        type="password"
+                        name="password"
+                        class="password field"
+                        placeholder="Password"
+                        required />
+                    </div>
+                    <div class="remember_me-and-login_btn">
+                        <label>
+                            <input 
+                            type="checkbox" 
+                            name="remember-me"
+                            class="rm-checkbox" />
+                            remember me
+                        </label>
+                        <input
+                        type="button"
+                        class="login_btn"
+                        value="LOGIN" />
+                    </div>
+                    <div class="create_account-and-forgot_password">
+                        <a href="#">create account</a>
+                        <a href="#" title="Click To Reset Password">forgot password?</a>
+                    </div>
+                </form>
+            </div>
+            <!-- horizontal rule (<hr/>) should be here -->
+            <span class="or">or</span>
+            <div class="socials"> <!--div 2--> <!-- This div(socials) will take the remaining 40% of the "login_socials-container" section -->
+                <div class="facebook socials-btn">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <a href="#" class="socials-link">login with facebook</a>
+                </div>
+                <div class="twitter socials-btn">
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <a href="#" class="socials-link">login with twitter</a>
+                </div>
+                <div class="google socials-btn">
+                    <i class="fa-brands fa-google"></i>
+                    <a href="#" class="socials-link">login with google</a>
+                </div>
+            </div>
+        </section>
+        <!-- Both sections above and below will be flexed(display: flex) in the "login_socials-and-hero-image_container" -->
+        <section class="hero-container"><!--Section 2-->
+        
+        </section>
+    </div>
+</body>
+</html>
+
