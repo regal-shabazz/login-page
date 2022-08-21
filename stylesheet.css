@@ -42,7 +42,7 @@ body {
 .login,
 .socials {
     width: 50%;
-    height: 50%; /* .socials will take the remaining 40% here */
+    height: 50%;
     margin: 0 auto;
 }
 
