@@ -200,7 +200,8 @@ label {
     body {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.85)), url('/images/raouf-nouari-QUXC5q9oAOk-unsplas.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.85)), 
+                      url('/images/raouf-nouari-QUXC5q9oAOk-unsplas.jpg');
     background-position: center;
     background-size: cover;
     }
@@ -256,3 +257,10 @@ label {
         background-color: black;
     }
 }
+
+@media only screen and (max-height: 400px) {
+    .or,
+    .socials {
+        display: none;
+}
+    
