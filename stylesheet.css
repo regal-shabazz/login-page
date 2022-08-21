@@ -42,7 +42,7 @@ body {
 .login,
 .socials {
     width: 50%;
-    height: 50%;
+    height: 50%; /* .socials will take the remaining 40% here */
     margin: 0 auto;
 }
 
@@ -189,7 +189,7 @@ label {
 .hero-container {
     width: 50%;
     height: 100%;
-    background-image: url('/images/raouf-nouari-QUXC5q9oAOk-unsplash.jpg');
+    background-image: url('/untitled/raouf-nouari-QUXC5q9oAOk-unsplash.jpg');
     background-position: center;
     background-size: cover;
     color: black;
@@ -202,7 +202,7 @@ label {
     body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/images/raouf-nouari-QUXC5q9oAOk-unsplash.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.85)), url('/untitled/raouf-nouari-QUXC5q9oAOk-unsplash.jpg');
     background-position: center;
     background-size: cover;
     }
@@ -231,8 +231,23 @@ label {
     .login,
     .socials {
     width: 80%;
-    height: 50%; 
     margin: 0 auto;
+    }
+
+    .pword {
+        margin-bottom: 40px;
+    }
+
+    .create_account-and-forgot_password {
+        margin-top: 25px;
+    }
+
+    .or {
+        margin-top: 25px;
+    }
+
+    .socials {
+        padding: 15px 0;
     }
 
     label {
@@ -240,10 +255,6 @@ label {
     }
 
     .login_btn {
-        background-color: #4A88FF;
+        background-color: black;
     }
-    
-    .or {
-        color: whitesmoke;
-        margin-bottom: 20px;
-    }
+}
