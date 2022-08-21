@@ -189,7 +189,7 @@ label {
 .hero-container {
     width: 50%;
     height: 100%;
-    background-image: url('./images/raouf-nouari-QUXC5q9oAOk-unsplash.jpg');
+    background-image: url('/untitled/raouf-nouari-QUXC5q9oAOk-unsplash.jpg');
     background-position: center;
     background-size: cover;
     color: black;
@@ -198,28 +198,48 @@ label {
 
 /* media query */
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 800px) {
     body {
     width: 100vw;
     height: 100vh;
-    background-image: url('./image/raouf-nouari-QUXC5q9oAOk-unsplash.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/untitled/raouf-nouari-QUXC5q9oAOk-unsplash.jpg');
     background-position: center;
     background-size: cover;
     }
 
-    .login_socials-container {
-        background-color: whitesmoke;
-        border: 1px solid black;
-        border-top: none;
-        border-left: none;
-        border-bottom: none;
-        flex-basis: 100%;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
+    .login_socials-and-hero_container {
+        border: none;
+        width: 90vw;
+    }
+
+    .input-field {
+        border: 1px solid whitesmoke;
+        color: whitesmoke;
+        background-color:rgba(0, 0, 0, 0.75);
     }
 
     .hero-container {
         display: none;
+    }
+
+    .login_socials-container {
+        flex-basis: 100%;
+        background-color: transparent;
+        border: none;
+    }
+
+    .login,
+    .socials {
+    width: 80%;
+    height: 50%; /* .socials will take the remaining 40% here */
+    margin: 0 auto;
+    }
+
+    label {
+        color: whitesmoke;
+    }
+
+    .login_btn {
+        background-color: black;
     }
 }
