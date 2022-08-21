@@ -240,9 +240,10 @@ label {
     }
 
     .login_btn {
-        background-color: black;
+        background-color: #4A88FF;
     }
     
     .or {
         color: whitesmoke;
-}
+        margin-bottom: 20px;
+    }
