@@ -258,7 +258,7 @@ label {
     }
 }
 
-@media only screen and (max-height: 672px) {
+@media only screen and (max-height: 600px) {
     .or,
     .socials {
         display: none;
