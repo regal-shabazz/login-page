@@ -189,7 +189,7 @@ label {
 .hero-container {
     width: 50%;
     height: 100%;
-    background-image: url("./image/raouf-nouari-QUXC5q9oAOk-unsplas.jpg");
+    background-image: url('./image/raouf-nouari-QUXC5q9oAOk-unsplas.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -200,7 +200,7 @@ label {
     body {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.85)), url("./image/raouf-nouari-QUXC5q9oAOk-unsplas.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.85)), url('./image/raouf-nouari-QUXC5q9oAOk-unsplas.jpg');
     background-position: center;
     background-size: cover;
     }
